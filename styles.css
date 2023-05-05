@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.border{
+  height: 379px;
+  width: 300px;
+  border: 3px solid black;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+.border:hover{
+  border: 2px solid rgba(255, 255, 255, 0);
+ 
+}
+.card{
+  height: 379px;
+  width: 300px;
+  background: grey;
+  margin: 0 50px;
+  border-radius: 10px;
+  transition:  0.8s;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 70px 63px -60px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: -25%;
+}
+.card0{
+  background: url('https://1.bp.blogspot.com/-pVfTTN_EIdU/X8aV2-qijfI/AAAAAAAA4I8/xPjYFakb6uQce5DqUmMlc2Inm2nPugu_wCLcBGAsYHQ/s2048/Tonikaku%2BKawaii%2BYuzaki%2BTsukasa%2BMega%2BCute%2BDress%2BHD%2BRender.png')  left no-repeat;
+  background-size: 290px;
+}
+.card0:hover {
+  background: url('https://preview.redd.it/tonikaku-kawaii-monthly-visual-march-v0-pmp4o0p30wm81.jpg?auto=webp&s=4b9fcb88391561e6e160c8791cb1f688a1479569') left center no-repeat;
+  background-size: 300px;
+  filter: drop-shadow(2px 2px 10px rgb(219, 5, 5));
+}
+.card1{
+  background: url('https://upload.wikimedia.org/wikipedia/en/e/ea/Tanjirou_manga.png') center center no-repeat;
+  background-size: 290px
+}
+.card1:hover{
+  background: url('https://images.fineartamerica.com/images/artworkimages/medium/3/animal-demon-slayer-anime-tanjiro-kamado-anime-video-game-transparent.png') left center no-repeat;
+  filter: drop-shadow(2px 2px 10px rgb(219, 5, 5));
+  background-size: 300px;
+}
+.card2{
+  background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGaf0EBHDjh8KELcdPsGtm6Rt74j12LjpUGppOQ0gCyFd3eo0IFZu5Ak-b57XXGzZzmQcMdzAr8jzCuMjLMy6iDArhNgs69wQ31Q7qA7Ukv4JaoE6gHfb8lwsXr7z_Ld2WeE7g7xF6F01VvUznO2JH6xbi7o0UJfjn7AwjfQay--sgotw3i2QSm1V41A/w0/fr.png') ;
+  background-size: 300px;
+  
+}
+.card2:hover{
+  background: url('https://preview.redd.it/qx7figjh5oua1.jpg?auto=webp&v=enabled&s=7437071e50a2aeca1e7271acf8f00acfcd8efdbf')left no-repeat;
+  background-size: 300px;
+  filter: drop-shadow(2px 2px 10px rgb(219, 5, 5));
+}
+.card3{
+  background: url('https://4.bp.blogspot.com/-WQ9V39fb3-8/VkyNNCqZyEI/AAAAAAAAC1M/uItT638uuqU/s1600/Highschool%2BDxD%2BRias%2BGremory%2BSexy%2BWhite%2BBunny%2BDress%2BRender.png')  left no-repeat;
+  background-size: 300px;
+}
+.card3:hover:hover {
+  background: url('/ElmONVS\ -\ copia.jpg') left center no-repeat;
+  background-size: 320px;
+  filter: drop-shadow(2px 2px 10px rgb(219, 5, 5));
+}
+h2{
+  color: #f6f1f1;
+  text-shadow: 2px 3px 10px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+h2 span{
+  transition: .5s linear
+}
+h2:hover span:nth-child(1){
+  margin-right: 5px
+}
+h2:hover span:nth-child(2){
+  margin-left: 30px
+}
+h2:hover span{
+  color: #0a0a0a;
+  text-shadow: 0 0 10px #fa0000,
+               0 0 20px #f30303, 
+               0 0 40px #f40202;
+}
+
+
+.fa{
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.fa:hover{
+  transform: scale(1.3);
+}
+
+.t1{
+  margin-top: 100%;
+}
+
+a{
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
